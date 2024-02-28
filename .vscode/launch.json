@@ -3,9 +3,9 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Debug (Launch)-<InnerJoinTest.java>",
+            "name": "Debug (Launch)-<testActivityInnerJoin1()>",
             "request": "launch",
-            "mainClass": "<InnerJoinTest.java>",
+            "mainClass": "<testActivityInnerJoin1()>",
             "projectName": "<PEPLabsChallenges>"
         }
     ]
