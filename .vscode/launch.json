@@ -3,10 +3,14 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Debug (Launch)-<testActivityInnerJoin1()>",
+            "name": "Debug (Launch)-TestActivityInnerJoin1",
             "request": "launch",
-            "mainClass": "<testActivityInnerJoin1()>",
-            "projectName": "<PEPLabsChallenges>"
+            "mainClass": "com.myproject.tests.InnerJoinTest", // replace with your actual test class
+            "projectName": "PEPLabsChallenges",
+            "cwd": "${workspaceFolder}",
+            "args": "-Dtest=InnerJoinTest#testActivityInnerJoin1", // replace with your actual test method
+            "console": "internalConsole",
+            "stopOnEntry": false
         }
     ]
 }
