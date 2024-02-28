@@ -1,1 +1,5 @@
-SELECT students.id, students.student_name FROM students INNER JOIN class ON students.class_title = class.class_title WHERE class.teacher_name = 'Ms. Lovelace';
+SELECT student.id, student.student_name 
+FROM class 
+INNER JOIN student 
+ON class.class_title = student.class_title 
+WHERE class.teacher_name = 'Ms. Lovelace';
