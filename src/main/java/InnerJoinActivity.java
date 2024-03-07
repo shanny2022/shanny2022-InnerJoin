@@ -58,6 +58,8 @@ import java.util.Set;
  * results. This is because there is no matching record in the opposite table for either of those records. (There is
  * no art teacher, and there are no students taking biology.)
  */
+
+ 
 public class InnerJoinActivity {
     /**
      * Consider the following tables:
